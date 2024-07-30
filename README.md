@@ -32,8 +32,8 @@ The trained model achieves an accuracy of **75%** on the test dataset.
 1. Clone the repository
 2. Install the required dependencies (listed in `requirements.txt`)
 3. Run training.ipynb notebook code on Kaggle and save the model
-4. Download the outputs and save on same directory
-5. Run the detection.py
+4. Download the trained models and save on same directory
+5. Run `python detection.py` to use the model for facial emotion recognition
 
 ### Option 2: Use the pre-trained model
 
@@ -44,10 +44,11 @@ The trained model achieves an accuracy of **75%** on the test dataset.
 ## Detection Script
 -------------------
 
-The `detection.py` script uses the OpenCV library to capture video from the webcam and detect faces using Haar cascades. The detected faces are then passed through the trained CNN model to recognize the emotion.
+The `detection.py` script uses the OpenCV library to capture video from the webcam and detect faces using Haarcascades. The detected faces are then passed through the trained CNN model to recognize the emotion.
 
 
-## Author
--------
+## Contact
 
-Nandakishore
+If you have any questions or feedback, please feel free to reach out.
+
+Thank you for using Facial Emotion Recognition! 😊
